@@ -15,31 +15,31 @@ console.log(sym.concat('0000').concat(hue.toString(16)))
 
 for (let n = 0; n < 36; n++) {
     for (let i = (256 - 255 + (1021 * n)); i < (271 - 255 + (1021 * n)); i++) {
-        setTimeout(red_up_1, 50 * i)
+        setTimeout(red_up_1, 20 * i)
     }
 
     for (let i = (271 - 255 + (1021 * n)); i < (511 - 255 + (1021 * n)); i++) {
-        setTimeout(red_up, 50 * i)
+        setTimeout(red_up, 20 * i)
     }
 
     for (let i = (511 - 255 + (1021 * n)); i < (766 - 255 + (1021 * n)); i++) {
-        setTimeout(blue_down, 50 * i)
+        setTimeout(blue_down, 20 * i)
     }
 
     for (let i = (766 - 255 + (1021 * n)); i < (1021 - 255 + (1021 * n)); i++) {
-        setTimeout(blue_up, 50 * i)
+        setTimeout(blue_up, 20 * i)
     }
 
     for (let i = (1 + 1021 - 255 + (1021 * n)); i < (240 + 1021 - 255 + (1021 * n)); i++) {
-        setTimeout(red_down, 50 * i)
+        setTimeout(red_down, 20 * i)
     }
 
     for (let i = (240 + 1021 - 255 + (1021 * n)); i < (255 + 1021 - 255 + (1021 * n)); i++) {
-        setTimeout(red_down_1, 50 * i)
+        setTimeout(red_down_1, 20 * i)
     }
 
     for (let i = (255 + 1021 - 255 + (1021 * n)); i < (256 + 1021 - 255 + (1021 * n)); i++) {
-        setTimeout(red_down_4, 50 * i)
+        setTimeout(red_down_4, 20 * i)
     }
 }
 
